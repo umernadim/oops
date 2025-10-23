@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // *******************************
-//      Classes and OOP's
+//      Classes and Objects
 // *******************************
 
 // 1st method of object initialization 
@@ -32,6 +32,39 @@
 //    public string Profession;
 //}
 
+
+
+//Bottle bottle1 = new();
+//bottle1.name = "Water Bottle";
+//bottle1.color = "Blue";
+//bottle1.price = 150;
+
+//Console.WriteLine($"Bottle-name: {bottle1.name}, Color: {bottle1.color}, Price: {bottle1.price}");
+//class Bottle
+//{
+//    public string name;
+//    public string color;
+//    public int price;
+//}
+
+
+
+// Class with a Method
+//Calculator sum = new();
+//sum.num1 = 10;
+//sum.num2 = 20;
+//sum.add();
+
+//class Calculator
+//{
+//    public int num1;
+//    public int num2;
+//    public void add()
+//    {
+//        int sum = num1 + num2;
+//        Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
+//    }
+//}
 
 
 //List<Mobile> mobiles = new()
@@ -67,3 +100,25 @@
 //    public string model;
 //    public int price;
 //}
+
+
+
+// ********************************
+//          Constructors
+// ********************************
+
+//Toyota car1 = new Toyota("corolla", "red", 2022);
+//Console.WriteLine($"carModel: {car1.model}, color: {car1.color}, year: {car1.year}");
+//class Toyota {
+//    public string model;
+//    public string color;
+//    public int year;
+//    public Toyota(string model, string color, int year)
+//    {
+//        this.model = model;
+//        this.color = color;
+//        this.year = year;
+//    }
+//}
+
+
