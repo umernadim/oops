@@ -67,6 +67,8 @@
 //}
 
 
+
+// Mobile Details
 //List<Mobile> mobiles = new()
 //{
 //    new Mobile()
@@ -148,6 +150,8 @@
 //}
 
 
+
+
 //Product Details 
 //List<Product> prducts = new()
 //{
@@ -175,29 +179,116 @@
 //
 
 
-// Student Marks
-List<Students> studets = new()
-{
-    new Students("umer", 73, 67, 90),
-    new Students("danish", 65, 78, 89),
-    new Students("usman", 88, 70, 89)
-};
 
-foreach(var student in studets)
-{
-    Console.WriteLine($"stName: {student.name}, engMarks: {student.engMarks}, urduMarks: {student.urduMarks}, sciMarks: {student.sciMarks}");
-}
-class Students
-{
-    public string name;
-    public int engMarks;
-    public int urduMarks;
-    public int sciMarks;
-    public Students(string name, int engMarks, int urduMarks, int sciMarks)
-    {
-        this.name = name;
-        this.engMarks = engMarks;
-        this.urduMarks = urduMarks;
-        this.sciMarks = sciMarks;
-    }
-}
+// Student Marks
+//List<Students> students = new()
+//{
+//    new Students("umer", 73, 67, 90),
+//    new Students("danish", 65, 78, 89),
+//    new Students("usman", 88, 70, 89)
+//};
+
+//foreach(var student in students)
+//{
+//    student.avgg();
+//}
+//class Students
+//{
+//    public string name;
+//    public int engMarks;
+//    public int urduMarks;
+//    public int sciMarks;
+//    public Students(string name, int engMarks, int urduMarks, int sciMarks)
+//    {
+//        this.name = name;
+//        this.engMarks = engMarks;
+//        this.urduMarks = urduMarks;
+//        this.sciMarks = sciMarks;
+//    }
+//    public void avgg() {
+//        int avg = (engMarks + urduMarks + sciMarks) / 3;
+//        Console.WriteLine($"Average Marks of {name} is {avg}");
+//    }
+//}
+
+
+
+
+//Employee Salary Calculator
+//List<Employee> employees = new()
+//{
+//    new Employee("ahmad", 50000, 4000),
+//    new Employee("usman", 55000, 3500),
+//    new Employee("ali", 60000, 3000),
+//    new Employee("kamran", 62000, 2700)
+//};
+
+//foreach(var emp in employees)
+//{
+//    emp.totalSalary();
+//}
+
+//class Employee
+//{
+//    public string name;
+//    public int basicSalary;
+//    public int bonus;
+//    public Employee(string name, int basicSalary, int bonus)
+//    {
+//        this.name = name;
+//        this.basicSalary = basicSalary;
+//        this.bonus = bonus;
+//    }
+//    public void totalSalary()
+//    {
+//        int total = basicSalary + bonus;
+//        Console.WriteLine($"Total salary of {name} is {total}");
+//    }
+//}
+
+
+
+
+// **********************************************
+// Method Overloading with Classes and Objects
+// **********************************************
+//Suzuki car1 = new Suzuki("swift", 2022, "grey");
+//Console.WriteLine($"Car Model: {car1.model}, year: {car1.year}, color: {car1.color}");
+//Console.WriteLine("------------------");
+//Suzuki car2 = new Suzuki("baleno", 2021);
+//Console.WriteLine($"Car Model: {car2.model}, year: {car2.year}");
+//Console.WriteLine("------------------");
+//Suzuki car3 = new Suzuki("cultus", "white");
+//Console.WriteLine($"Car Model: {car3.model}, color: {car3.color}");
+//Console.WriteLine("------------------");
+//Suzuki car4 = new Suzuki("mehran");
+//Console.WriteLine($"Car Model: {car4.model}");
+//Console.WriteLine("------------------");
+
+//class Suzuki
+//{
+//    public string model;
+//    public int year;
+//    public string color;
+//    public Suzuki(string model, int year, string color)
+//    {
+//        this.model = model;
+//        this.year = year;
+//        this.color = color;
+//    }
+//    public Suzuki(string model, int year)
+//    {
+//        this.model = model;
+//        this.year = year;
+//    }
+//    public Suzuki(string model, string color)
+//    {
+//        this.model = model;
+//        this.color = color;
+//    }
+//    public Suzuki(string model)
+//    {
+//        this.model = model;
+//    }
+//}
+
